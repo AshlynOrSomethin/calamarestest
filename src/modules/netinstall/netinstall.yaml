@@ -213,7 +213,7 @@
         packages:
           - vscodium-bin
           - vscodium-bin-features
-          - vscodium-bad-marketplace
+          - vscodium-bin-marketplace
           - code
           - code-features
           - code-marketplace
@@ -231,13 +231,15 @@
           - github-cli
           - github-desktop-bin
       - name: "Other"
-        description: "General Development Apps"
+        description: "General Development Apps and Text Editors"
         selected: false
         packages:
           - meld
           - notepadqq
           - kate
           - xpipe-bin
+          - neovim
+          - vim
 - name: "Java"
   description: "All versions are development kits, contains the main java too."
   hidden: false
@@ -315,6 +317,8 @@
     - obs-studio-tytan652
     - gimp
     - krita
+    - darktable
+    - rawtherapee
     - okular
     - kdenlive
     - spotify
