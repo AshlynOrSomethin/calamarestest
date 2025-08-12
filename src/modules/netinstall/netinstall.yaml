@@ -114,6 +114,8 @@
           - sg3_utils
           - sof-firmware
           - linux-firmware
+          - apple-bcm-firmware
+          - t2fanrd
       - name: "power"
         description: "Powermanagement support"
         selected: true
